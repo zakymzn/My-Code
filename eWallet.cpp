@@ -102,7 +102,7 @@ int main() {
                         if (menuPulsa == 2) {
                             if (saldo >= 10000) {
                                 cout << "Transaksi berhasil" << endl;
-                                cout << "Pulsa telah ditambahkan sebesar Rp5000 ke nomor " << nomorTelepon << endl;
+                                cout << "Pulsa telah ditambahkan sebesar Rp10000 ke nomor " << nomorTelepon << endl;
                                 cout << "Saldo Rp" << saldo << " telah terpotong" << endl;
                                 saldo -= 10000;
                                 cout << "Sisa saldo Anda Rp" << saldo << endl;
@@ -116,7 +116,7 @@ int main() {
                         if (menuPulsa == 3) {
                             if (saldo >= 20000) {
                                 cout << "Transaksi berhasil" << endl;
-                                cout << "Pulsa telah ditambahkan sebesar Rp5000 ke nomor " << nomorTelepon << endl;
+                                cout << "Pulsa telah ditambahkan sebesar Rp20000 ke nomor " << nomorTelepon << endl;
                                 cout << "Saldo Rp" << saldo << " telah terpotong" << endl;
                                 saldo -= 20000;
                                 cout << "Sisa saldo Anda Rp" << saldo << endl;
@@ -130,7 +130,7 @@ int main() {
                         if (menuPulsa == 4) {    
                             if (saldo >= 50000) {
                                 cout << "Transaksi berhasil" << endl;
-                                cout << "Pulsa telah ditambahkan sebesar Rp5000 ke nomor " << nomorTelepon << endl;
+                                cout << "Pulsa telah ditambahkan sebesar Rp50000 ke nomor " << nomorTelepon << endl;
                                 cout << "Saldo Rp" << saldo << " telah terpotong" << endl;
                                 saldo -= 50000;
                                 cout << "Sisa saldo Anda Rp" << saldo << endl;
@@ -144,7 +144,7 @@ int main() {
                         if (menuPulsa == 5) {
                             if (saldo >= 100000) {
                                 cout << "Transaksi berhasil" << endl;
-                                cout << "Pulsa telah ditambahkan sebesar Rp5000 ke nomor " << nomorTelepon << endl;
+                                cout << "Pulsa telah ditambahkan sebesar Rp100000 ke nomor " << nomorTelepon << endl;
                                 cout << "Saldo Rp" << saldo << " telah terpotong" << endl;
                                 saldo -= 100000;
                                 cout << "Sisa saldo Anda Rp" << saldo << endl;
@@ -207,7 +207,7 @@ int main() {
                         if (menuKuota == 2) {
                             if (saldo >= 25000) {
                                 cout << "Transaksi berhasil" << endl;
-                                cout << "Kuota 1GB selama 1 hari telah ditambahkan ke nomor " << nomorTelepon << endl;
+                                cout << "Kuota 10GB selama 7 hari telah ditambahkan ke nomor " << nomorTelepon << endl;
                                 cout << "Saldo Rp" << saldo << " telah terpotong" << endl;
                                 saldo -= 25000;
                                 cout << "Sisa saldo Anda Rp" << saldo << endl;
@@ -221,7 +221,7 @@ int main() {
                         if (menuKuota == 3) {
                             if (saldo >= 50000) {
                                 cout << "Transaksi berhasil" << endl;
-                                cout << "Kuota 1GB selama 1 hari telah ditambahkan ke nomor " << nomorTelepon << endl;
+                                cout << "Kuota 25GB selama 14 hari telah ditambahkan ke nomor " << nomorTelepon << endl;
                                 cout << "Saldo Rp" << saldo << " telah terpotong" << endl;
                                 saldo -= 50000;
                                 cout << "Sisa saldo Anda Rp" << saldo << endl;
@@ -235,7 +235,7 @@ int main() {
                         if (menuKuota == 4) {
                             if (saldo >= 100000) {
                                 cout << "Transaksi berhasil" << endl;
-                                cout << "Kuota 1GB selama 1 hari telah ditambahkan ke nomor " << nomorTelepon << endl;
+                                cout << "Kuota 50GB selama 30 hari telah ditambahkan ke nomor " << nomorTelepon << endl;
                                 cout << "Saldo Rp" << saldo << " telah terpotong" << endl;
                                 saldo -= 100000;
                                 cout << "Sisa saldo Anda Rp" << saldo << endl;
